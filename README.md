@@ -11,7 +11,8 @@
 ### Embedding Model
 Using the **CLIP** model 🤗 [openai/clip-vit-base-patch32](openai/clip-vit-base-patch32) to generate embedding vector for images, stored on a vector database, such as **Pinecone** to facilitate search capabilities.
 
-
+![image](https://github.com/d1pankarmedhi/image-search-engine/assets/136924835/7e8aa331-a28e-41df-9614-5e39c5538638)
+- Fig: Pipeline diagram
 
 ## Getting started
 1. Clone repository
