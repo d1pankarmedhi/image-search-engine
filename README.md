@@ -14,6 +14,13 @@ Using the **CLIP** model 🤗 [openai/clip-vit-base-patch32](openai/clip-vit-bas
 ![image](https://github.com/d1pankarmedhi/image-search-engine/assets/136924835/7e8aa331-a28e-41df-9614-5e39c5538638)
 - Fig: Pipeline diagram
 
+With 4 classes, including **Airplane, Dog, Cat and Car**, there are around 120 images (30 each) in total. These images are stored in an **AWS S3** bucket. After generating embeddings for each image, these embeddings are stored on a **Pinecone** index with their respective **S3** links as metadata.
+
+The vector embedding of the input image is generated and the relevant top-k embeddings are fetched from the **Pinecone** database. Once the results are obtained, the corresponding images are fetched from the **S3** bucket using the links stored as metadata.
+
+![image](https://github.com/d1pankarmedhi/image-search-engine/assets/136924835/19637f25-bc5f-4a90-982e-24efe6109a22)
+- Fig: Search engine demo
+
 ## Getting started
 1. Clone repository
 2. Create virtual env and install dependencies
