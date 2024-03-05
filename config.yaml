@@ -1,0 +1,2 @@
+aws_s3_bucket_name: "imgbucket01"
+pinecone_index_name: "image-search-engine"
