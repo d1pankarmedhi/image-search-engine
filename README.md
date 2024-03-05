@@ -1,5 +1,17 @@
-# image-search-engine
-🔎 A vector space search engine for similar images.
+<div align='center'>
+    <h1>Image Search Engine</h1>
+    <p>A vector based image search engine using Visual Transformer model type.</p>
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Huggingface](https://img.shields.io/badge/Huggingface-%23FFD200.svg?style=for-the-badge&logo=&logoColor=white)
+
+</div>
+
+---
+
+### Embedding Model
+Using the **CLIP** model 🤗 [openai/clip-vit-base-patch32](openai/clip-vit-base-patch32) to generate embedding vector for images, stored on a vector database, such as **Pinecone** to facilitate search capabilities.
+
+
 
 ## Getting started
 1. Clone repository
