@@ -1,5 +1,5 @@
 <div align='center'>
-    <h1>🖼️ **Image Search Engine**</h1>
+    <h1>🖼️ Image Search Engine</h1>
     <p>A vector-based image search engine powered by the Visual Transformer model type.</p>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
